@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Amina Lesbekova
 description              : Amina Lesbekova - Projects and CV 
-baseurl                  : "/FA-PORTFOLIO-AL2588/" 
+baseurl                  : "/FA25-PORTFOLIO-AL2588/" 
 
 # Theme and Style
 theme: jekyll-theme-minimal
