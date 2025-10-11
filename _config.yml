@@ -13,7 +13,6 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Amina Lesbekova
 description              : Amina Lesbekova - Projects and CV 
-url:  "https://cornell-mae-ug.github.io"
 baseurl                  : "/fa25-portfolio-al2588" 
 
 # Theme and Style
