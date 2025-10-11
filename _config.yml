@@ -14,7 +14,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : Amina Lesbekova
 description              : Amina Lesbekova - Projects and CV 
 url:  "https://cornell-mae-ug.github.io"
-baseurl                  : "/FA25-PORTFOLIO-AL2588" 
+baseurl                  : "/fa25-portfolio-al2588" 
 
 # Theme and Style
 theme: jekyll-theme-minimal
