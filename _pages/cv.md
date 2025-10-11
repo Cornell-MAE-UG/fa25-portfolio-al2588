@@ -1,70 +1,56 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: <Amina Lesbekova> - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/Resume amina .pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [al2588@cornell.edu](mailto:al2588@cornell.edu) | | | **Phone:** +1 607 379 5052
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Cornell engineering student (Class of 2028) pursuing studies in Mechanical Engineering and Physics. Motivated by hands-on problem-solving, experimentation, and data-driven design; eager to contribute to research and applied engineering projects in academic or industry settings.
 
 ---
 
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.4/4.0 | Graduation: May, 2028
 
-- **[High School Name]**  
-  *High School Diploma*  
-  Graduation: [Month, Year]
+- **[Nazarbayev Intellectual School of Astana]**  
+  *International Bacallaureate*  
+  Graduation: [May, 2024]
 
 ---
 
 #### Skills
 - **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
+- **Programming:** Python 
 - **Tools:** 3D Printing, Laser Cutting  
 
 ---
 
 #### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **[Safety System for Aircraft Water Landing in Emergency Situations]**:  
+  *[A safety system for aircraft landing on water in emergencies, which is based on the principle of automobile airbags made of the Nylon-Graphene composite.]*  
 
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **[Determining the relationship between the temperature and the coagulation efficiency of the Moringa Oleifera seeds (using spectrophotometry)]**:  
+  *[This research project examined how varying temperatures (20°C to 60°C) influence the coagulation efficiency of Moringa Oleifera seed extract in reducing water turbidity. Using a rigorously controlled experimental setup—including standardized soil suspensions, precise temperature regulation, and spectrophotometric measurements—the study demonstrated that higher temperatures significantly enhance the extract’s ability to coagulate contaminants. The findings support the potential application of natural coagulants as sustainable and eco-friendly alternatives in water treatment processes.]*  
 
 ---
 
-#### Work Experience
-- **[Company Name] - Intern**  
-  [Month, Year] - [Month, Year]  
-  - Responsibility 1  
-  - Responsibility 2  
-
 ---
-
-#### Achievements & Certifications
-- [Certification Name], [Issuing Organization], [Year]  
-- [Achievement Name], [Competition/Event], [Year]  
 
 ---
 
 #### Extracurricular Activities
-- Member of [Club/Organization Name]  
-- Volunteer for [Event/Organization Name]  
+- Social Media Manager of Cornell University Kazakh Club  
+- Member of Cornell University Women of Aeronautics and Astronautics
 
 ---
 
