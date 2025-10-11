@@ -1,11 +1,11 @@
 ---
 layout: default
-title: <Amina Lesbekova> - Curriculum Vitae
+title: Amina Lesbekova - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/Resume amina .pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [al2588@cornell.edu](mailto:al2588@cornell.edu) | | | **Phone:** +1 607 379 5052
