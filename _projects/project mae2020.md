@@ -3,6 +3,7 @@ layout: project
 title: Design of an actuator
 description: An actuator and its application that I designed as part of my assignment for MAE 2020
 image: /assets/images/IMG_0684.jpeg
+image: /assets/images/IMG_0909.jpeg
 ---
 
 Given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed length (of my choice), 3 pin supports of which two need to be mounted on the ground and a linear actuator (use max force values only), I needed to design a frame/mechanism to lift the maximum possible weight to the highest possible height, assuming all the supports and bar/actuator are rigid.
@@ -105,7 +106,6 @@ $ W_{\text{max}} \approx 724\ \text{N} \approx 74\ \text{kg}. $
 
 In this step, the same bar is treated as a **beam** that can bend.
 
-image: /assets/images/IMG_0909.jpeg
 
 ### Beam Model
 
