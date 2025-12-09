@@ -105,6 +105,8 @@ $ W_{\text{max}} \approx 724\ \text{N} \approx 74\ \text{kg}. $
 
 In this step, the same bar is treated as a **beam** that can bend.
 
+image: /assets/images/IMG_0909.jpeg
+
 ### Beam Model
 
 Supports:
