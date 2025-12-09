@@ -107,6 +107,9 @@ Maximum liftable weight in the rigid-bar model
 
 ## Step 2 — Beam Analysis (Flexible Bar)
 
+![Rigid bar lifting mechanism](/assets/IMG_0909.jpeg)
+
+
 Now the same bar is treated as a beam that can bend.
 
 ### Beam Model
