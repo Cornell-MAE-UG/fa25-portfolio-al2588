@@ -26,97 +26,102 @@ W = 1.26 kN is the maximum weight that could be lifted
 
 ### (a) Problem, Constraints, and Degrees of Freedom
 
-**Problem**  
-Design a lifting mechanism inside a 150 cm × 50 cm workspace using a rigid 150 cm bar, three pin supports (two on the ground), and a linear actuator that can deliver up to 1.45 kN.  
-The goal is to lift the maximum possible weight to a vertical height of 50 cm.
+Problem  
+Design a lifting mechanism inside a 150 cm × 50 cm workspace using:
 
-**Constraints**
+- one rigid 150 cm bar,
+- three pin supports (two on the ground), and
+- a linear actuator that can deliver up to 1.45 kN.
+
+Goal: lift the maximum possible weight to a vertical height of 50 cm.
+
+Constraints
 
 - Design space: 150 cm horizontal × 50 cm vertical  
-- Bar length: 150 cm (treated as rigid in Step 1)  
-- Actuator force acts along its axis only  
+- Bar length: 150 cm (rigid in Step 1)  
+- Actuator force acts along its own axis  
 - Weight is attached at the far end of the bar  
 - Actuator attaches to the bar 75 cm from the pivot  
 
-**Design Degrees of Freedom**
+Design degrees of freedom
 
 - Placement of ground pins  
 - Location of the bar pivot  
-- Location of actuator base on the ground  
-- Location of actuator attachment on the bar  
+- Location of the actuator base on the ground  
+- Location of the actuator attachment on the bar  
 - Location of the weight along the bar  
 
 ---
 
 ### (b) Static Analysis of the Rigid Bar
 
-The bar lifts the weight when the end of the bar reaches 50 cm height.  
-With bar length 150 cm, the bar angle is
+When the weight has been lifted 50 cm, the 150 cm bar makes an angle
 
 - theta = arctan(50 / 150) ≈ 18.43 degrees.
 
-**Coordinates (cm)**
+Coordinates (in cm)
 
-- A (pivot): (0, 0)  
-- C (actuator attach, 75 cm from A along the bar):  
+- A (pivot): (0 , 0)  
+- C (actuator attachment, 75 cm from A along the bar):
+
   - x_C = 75 * cos(theta) ≈ 71.3  
   - y_C = 75 * sin(theta) ≈ 23.7  
-- D (weight at bar end, 150 cm):  
+
+- D (weight at bar end, 150 cm from A):
+
   - x_D = 150 * cos(theta) ≈ 142.7  
   - y_D = 150 * sin(theta) ≈ 47.4  
 
 The actuator is mounted vertically from the ground directly under C, so its force is vertical:
 
-- F_act = 1.45 kN = 1450 N
+- F_act = 1.45 kN = 1450 N.
 
-**Moment arms about A**
+Moment arms about A
 
-- Actuator moment arm: 71.3 cm  
-- Weight moment arm: 142.7 cm  
+- Actuator moment arm: 71.3 cm (horizontal distance from A to C)  
+- Weight moment arm: 142.7 cm (horizontal distance from A to D)
 
-Moment equilibrium about A:
+Taking moments about A (counterclockwise positive):
 
-- 1450 * 71.3 = W * 142.7
+- 1450 N * 71.3 cm − W * 142.7 cm = 0  
 
 Solve for W:
 
-- W = (1450 * 71.3) / 142.7 ≈ 724 N
+- W = (1450 * 71.3) / 142.7 ≈ 724 N.
 
-**Maximum liftable weight (rigid mechanism)**
+Maximum liftable weight in the rigid-bar model
 
-- W_max ≈ 724 N ≈ 74 kg
+- W_max ≈ 724 N ≈ 74 kg.
 
 ---
 
 ### (c) Mechanism Description
 
-- Bar: 150 cm long, pinned at A.  
-- Weight: attached at D, 150 cm from A.  
-- Actuator: base fixed to the ground below C, rod attached to C at 75 cm from A.  
-- At the lifted position, the bar makes an angle of about 18.4 degrees and the weight is 50 cm above the ground.  
+- A 150 cm bar is pinned to the ground at point A.  
+- The weight hangs at point D, 150 cm from A.  
+- The actuator base is fixed to the ground directly below point C.  
+- The actuator rod attaches to point C, which is 75 cm from A along the bar.  
+- When the bar reaches an angle of about 18.4 degrees, the end of the bar is 50 cm above the ground and the mechanism can hold a weight of about 724 N.
 
 ---
 
 ## Step 2 — Beam Analysis (Flexible Bar)
 
-![beam lifting mechanism](/assets/images/IMG_0909.jpeg)
-
-
-In this step, the same bar is treated as a beam that can bend.
+Now the same bar is treated as a beam that can bend.
 
 ### Beam Model
 
-Supports:
+Supports
 
 - Pin support at A (x = 0 cm)  
 - Vertical reaction at C from the actuator (x = 75 cm)  
 
-Loads:
+Loads
 
-- Upward 1450 N at C  
-- Downward 724 N at D (x = 150 cm)  
+- Upward 1450 N applied at C  
+- Downward 724 N (the weight) applied at D, x = 150 cm  
 
-Geometry:
+Geometry
 
 - Supported span A–C: L = 0.75 m  
 - Overhang C–D: a = 0.75 m  
@@ -125,42 +130,48 @@ Geometry:
 
 ### Support Reactions
 
-Take moments about A (distances in metres):
+Distances are now in metres.
+
+Moment equilibrium about A:
 
 - R_C * 0.75 − 724 * 1.5 = 0  
-  ⇒ R_C = (724 * 1.5) / 0.75 = 1448 N
 
-Vertical equilibrium:
+Solve for R_C:
+
+- R_C = (724 * 1.5) / 0.75 = 1448 N.
+
+Vertical force equilibrium:
 
 - R_A + R_C − 724 = 0  
-  ⇒ R_A = 724 − 1448 = −724 N
+  → R_A = 724 − 1448 = −724 N.
 
-(The negative sign indicates the support at A pushes downward on the beam in this configuration.)
+(The negative sign means the reaction at A acts downward on the beam in this loading configuration.)
 
 ---
 
 ### Maximum Deflection
 
-Assume the bar is initially a solid rectangular steel bar:
+Assume the bar is a solid rectangular steel bar.
+
+Section dimensions
 
 - Width b = 0.03 m (3 cm)  
-- Height h = 0.03 m (3 cm)  
+- Height h = 0.03 m (3 cm)
 
-Second moment of area:
+Second moment of area (about the horizontal centroidal axis)
 
 - I = b * h^3 / 12  
-- I = 0.03 * (0.03)^3 / 12  
-- I ≈ 6.75 × 10^-7 m^4
+- I = 0.03 * (0.03^3) / 12 ≈ 6.75 × 10^(-7) m^4.
 
-Material modulus (steel):
+Material
 
-- E = 200 × 10^9 Pa
+- Steel with Young’s modulus E = 200 × 10^9 Pa.
 
-For a tip load W on an overhang of length a beyond a simple support with span L, the vertical deflection at the tip is
+Deflection formula for a point load W at the end of an overhang of length a beyond a simple support with span L:
 
-- v_max = W * a^2 * (3L − a) / (6 * E * I)
+- v_max = W * a^2 * (3L − a) / (6 * E * I).
 
-Use:
+Here
 
 - W = 724 N  
 - a = 0.75 m  
@@ -168,7 +179,8 @@ Use:
 
 Then
 
-- v_max ≈ 0.000753 m = 0.753 mm
+- v_max = 724 * (0.75^2) * (3 * 0.75 − 0.75) / (6 * 200e9 * 6.75e−7)  
+- v_max ≈ 0.000753 m ≈ 0.753 mm.
 
 ---
 
@@ -176,53 +188,56 @@ Then
 
 Total bar length:
 
-- L_total = 1.5 m
+- L_total = 1.5 m.
 
-Allowable deflection (2% of the length):
+Allowable deflection (2 percent of the length):
 
-- v_allow = 0.02 * L_total = 0.02 * 1.5 = 0.03 m = 30 mm
+- v_allow = 0.02 * L_total = 0.02 * 1.5 = 0.03 m = 30 mm.
 
 Comparison:
 
-- v_max = 0.753 mm << 30 mm
+- v_max ≈ 0.753 mm  
+- v_allow = 30 mm  
 
-**Conclusion:** the bar is much stiffer than required; its deflection is well below 2% of the span.
+So
+
+- v_max << v_allow.
+
+Conclusion: the beam is much stiffer than required; its maximum deflection is far less than 2 percent of its length.
 
 ---
 
 ## Redesigned Mass-Efficient Beam (Same Material, Same Area)
 
-The original 3 cm × 3 cm bar has area
+Area of the original 3 cm × 3 cm bar
 
-- A = 3 cm × 3 cm = 9 cm² = 9 × 10^-4 m²
+- A = 3 cm × 3 cm = 9 cm^2 = 9 × 10^(-4) m^2.
 
 To use the material more efficiently, choose a taller, thinner rectangular section with the same area:
 
-- Height h = 0.06 m (6 cm)  
-- Width b = 0.015 m (1.5 cm)  
+- New height h = 0.06 m (6 cm)  
+- New width b = 0.015 m (1.5 cm)
 
 Area check:
 
-- A_new = b * h = 0.015 * 0.06 = 9 × 10^-4 m² (same as original)
+- A_new = b * h = 0.015 * 0.06 = 9 × 10^(-4) m^2  (same as original).
 
 New second moment of area:
 
 - I_new = b * h^3 / 12  
-- I_new = 0.015 * (0.06)^3 / 12  
-- I_new ≈ 2.7 × 10^-7 m^4
+- I_new = 0.015 * (0.06^3) / 12 ≈ 2.7 × 10^(-7) m^4.
 
-This taller, thinner section uses the same amount of material but moves more of it away from the neutral axis, increasing bending stiffness and further reducing deflection.
+This taller, thinner section keeps the same amount of material but moves more of it away from the neutral axis, which increases bending stiffness and reduces deflection.
 
 ---
 
 ## Final Results Summary
 
-- Maximum liftable weight (rigid-bar model):  
-  W_max ≈ 724 N ≈ 74 kg
+- Maximum liftable weight in the rigid-bar model:  
+  W_max ≈ 724 N (about 74 kg).
 
-- Maximum beam deflection (3 cm × 3 cm bar):  
-  v_max ≈ 0.753 mm < 30 mm (2% limit)
+- Maximum beam deflection for a 3 cm × 3 cm steel bar:  
+  v_max ≈ 0.753 mm, which is much smaller than the 30 mm limit (2 percent of the span).
 
-- More efficient beam design (same area):  
-  Tall, thin rectangle 6 cm × 1.5 cm with  
-  I_new ≈ 2.7 × 10^-7 m^4.
+- More efficient beam with the same area:  
+  rectangular cross-section 6 cm × 1.5 cm, with I_new ≈ 2.7 × 10^(-7) m^4.
