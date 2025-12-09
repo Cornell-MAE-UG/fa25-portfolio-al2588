@@ -20,7 +20,7 @@ Taking moment about A:
 W(150) = 1.45(130.02)
 W = 1.26 kN is the maximum weight that could be lifted
 
-# 🚀 Portfolio Mechanism Analysis
+# Portfolio Mechanism Analysis
 
 ## Step 1 — Rigid-Bar Mechanism
 
@@ -86,7 +86,7 @@ Solving:
 W = 724\ \text{N}
 \]
 
-#### ✅ Maximum liftable weight (rigid mechanism):
+#### Maximum liftable weight (rigid mechanism):
 
 \[
 W_{\text{max}} = 724\ \text{N} \approx 74\ \text{kg}
@@ -211,7 +211,7 @@ Our computed deflection:
 v_{\max} = 0.753\ \text{mm} \ll 30\ \text{mm}
 \]
 
-#### ✅ The bar easily satisfies the deflection constraint.
+#### The bar easily satisfies the deflection constraint.
 
 ---
 
