@@ -4,12 +4,6 @@ title: Heat exchanger
 description: An analysis of the heat exchanger lab
 image: /assets/images/IMG_4414.jpeg
 ---
-Purpose and real-world relevance
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
 
 In this lab we analyzed a real water-to-water heat exchanger and compared its performance in parallel-flow and counterflow configurations. Our goals were to (1) describe how the exchanger works physically, (2) apply mass, energy, and entropy balances to a real system, and (3) determine how changing an operating/design condition changes performance. Heat exchangers like this are central to many engineering systems, including car radiators, HVAC units, power-plant condensers and feedwater heaters, chemical reactors with cooling jackets, and refrigeration systems. Therefore, this lab provided us with a realistic thermodynamics outcome to share with employers.
 
@@ -39,6 +33,7 @@ Control Volume diagrams:
 
 Measurements
 
+
 Table 1. Temperature and flow measurements
 | Run | Configuration               | Cold Inlet Tc,in (°C) | Hot Inlet Th,in (°C) | Cold Outlet Tc,out (°C) | Hot Outlet Th,out (°C) | Flow Rate (gal/hr) |
 |-----|-----------------------------|-----------------------|----------------------|--------------------------|------------------------|-------------------|
@@ -46,6 +41,8 @@ Table 1. Temperature and flow measurements
 | 2   | Parallel flow               | 8.7                   | 35.0                 | 21.1                     | 23.7                   | 210               |
 | 3   | Counterflow                 | 9.2                   | 35.0                 | 22.1                     | 18.0                   | 210               |
 | 4   | Counterflow (hotter start)  | 10.0                  | 40.0                 | 23.9                     | 19.6                   | 210               |
+
+
 
 Table 2. Heat transfer results (as reported)
 | Run | (Tc) (K) | (Qc) (kW) | (Th) (K) | (Qh) (kW) |
@@ -55,9 +52,14 @@ Table 2. Heat transfer results (as reported)
 | 3   | 12.9     | 11.91     | 17.0     | 15.69     |
 | 4   | 13.9     | 12.83     | 20.4     | 18.83     |
 
+
+
+
 Observation: Based on the cold-side measurements, the exchanger transferred roughly 8–13 kW across our runs.
 
 We expect some mismatch between Qc and Qh because of real-system effects, including heat loss from tubing/exchanger to the room, unequal pump flow rates, imperfect reservoir mixing, and thermometer lag/placement. This is typical outside ideal textbook conditions.
+
+
 
 Table 3. Effectiveness (ε)
 | Run | Configuration              |    ε |
@@ -66,6 +68,8 @@ Table 3. Effectiveness (ε)
 |   2 | Parallel                   | 0.47 |
 |   3 | Counterflow                | 0.50 |
 |   4 | Counterflow (hotter start) | 0.46 |
+
+
 
 For the most fair comparison between flow arrangements, we compared Run 2 (parallel flow) and Run 3 (counterflow) because they began with nearly the same hot-side inlet temperature (~35 °C) and very similar cold-side inlet temperatures. Under these matched conditions, the counterflow setup performed slightly better: it achieved a higher effectiveness and transferred heat to the cold stream at a slightly greater rate than the parallel-flow setup.
 
