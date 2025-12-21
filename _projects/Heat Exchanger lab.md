@@ -34,9 +34,9 @@ Starting the hot fluid at a higher temperature increases the temperature differe
 
 ## Photos and schematics
 
-> Replace filenames as needed.
 
-- Figure 1. Initial setup for parallel flow  
+- Figure 1. Initial setup for parallel flow
+ <img src="/assets/images/IMG_4411.jpeg" alt="Heat exchanger setup" width="260" align="left" style="margin: 0 18px 12px 0; border-radius: 10px;">
 - Figure 2. Parallel flow in process  
 - Figure 3. Counterflow in process  
 - Figure 4. Heat exchanger inside  
