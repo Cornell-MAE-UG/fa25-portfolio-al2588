@@ -69,17 +69,17 @@ Starting the hot fluid at a higher temperature increases the temperature differe
 
 
 <p align="center">
-  <img src="/fa25-portfolio-al2588/assets/images/IMG_0879.jpeg" style="max-width:320px; width:100%; height:auto;" alt="Figure 1. Heat exchanger setup (IMG_0879)">
+  <img src="/fa25-portfolio-al2588/assets/images/IMG_0879.jpeg" style="max-width:700px; width:100%; height:auto;" alt="Figure 1. Heat exchanger setup (IMG_0879)">
 </p>
 
 
 <p align="center">
-  <img src="/fa25-portfolio-al2588/assets/images/IMG_0883.jpeg" style="max-width:320px; width:100%; height:auto;" alt="Figure 2. Heat exchanger setup (IMG_0883)">
+  <img src="/fa25-portfolio-al2588/assets/images/IMG_0883.jpeg" style="max-width:700px; width:100%; height:auto;" alt="Figure 2. Heat exchanger setup (IMG_0883)">
 </p>
 
 
 <p align="center">
-  <img src="/fa25-portfolio-al2588/assets/images/IMG_0880.jpeg" style="max-width:320px; width:100%; height:auto;" alt="Figure 3. Heat exchanger setup (IMG_0880)">
+  <img src="/fa25-portfolio-al2588/assets/images/IMG_0880.jpeg" style="max-width:700px; width:100%; height:auto;" alt="Figure 3. Heat exchanger setup (IMG_0880)">
 </p>
 
 
@@ -107,7 +107,7 @@ We expect some mismatch between **Qc** and **Qh** because of real-system effects
 
 
 <p align="center">
-  <img src="/fa25-portfolio-al2588/assets/images/IMG_0881.jpeg" style="max-width:320px; width:100%; height:auto;" alt="Heat exchanger setup (IMG_0881)">
+  <img src="/fa25-portfolio-al2588/assets/images/IMG_0881.jpeg" style="max-width:700px; width:100%; height:auto;" alt="Heat exchanger setup (IMG_0881)">
 </p>
 
 
