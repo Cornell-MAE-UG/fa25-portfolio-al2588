@@ -55,12 +55,12 @@ Observation: Based on the cold-side measurements, the exchanger transferred roug
 We expect some mismatch between Qc and Qh because of real-system effects, including heat loss from tubing/exchanger to the room, unequal pump flow rates, imperfect reservoir mixing, and thermometer lag/placement. This is typical outside ideal textbook conditions.
 
 Table 3. Effectiveness (ε)
-| Run | Configuration              | ε    |
-|-----|----------------------------|------|
-| 1   | Parallel                   | 0.27 |
-| 2   | Parallel                   | 0.47 |
-| 3   | Counterflow                | 0.50 |
-| 4   | Counterflow (hotter start) | 0.46 |
+| Run | Configuration              |    ε |
+| --: | -------------------------- | ---: |
+|   1 | Parallel                   | 0.27 |
+|   2 | Parallel                   | 0.47 |
+|   3 | Counterflow                | 0.50 |
+|   4 | Counterflow (hotter start) | 0.46 |
 
 For the most fair comparison between flow arrangements, we compared Run 2 (parallel flow) and Run 3 (counterflow) because they began with nearly the same hot-side inlet temperature (~35 °C) and very similar cold-side inlet temperatures. Under these matched conditions, the counterflow setup performed slightly better: it achieved a higher effectiveness and transferred heat to the cold stream at a slightly greater rate than the parallel-flow setup.
 
