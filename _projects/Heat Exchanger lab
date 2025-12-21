@@ -6,6 +6,11 @@ image: /assets/images/IMG_4414.jpeg
 ---
 Purpose and real-world relevance
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 In this lab we analyzed a real water-to-water heat exchanger and compared its performance in parallel-flow and counterflow configurations. Our goals were to (1) describe how the exchanger works physically, (2) apply mass, energy, and entropy balances to a real system, and (3) determine how changing an operating/design condition changes performance. Heat exchangers like this are central to many engineering systems, including car radiators, HVAC units, power-plant condensers and feedwater heaters, chemical reactors with cooling jackets, and refrigeration systems. Therefore, this lab provided us with a realistic thermodynamics outcome to share with employers.
 
 Device description (qualitative)
