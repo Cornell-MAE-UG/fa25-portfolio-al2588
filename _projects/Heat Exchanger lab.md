@@ -47,13 +47,17 @@ Starting the hot fluid at a higher temperature increases the temperature differe
 ## Measurements
 
 ### Table 1. Temperature and flow measurements
-
 | Run | Configuration | Cold Inlet Tc,in (°C) | Hot Inlet Th,in (°C) | Cold Outlet Tc,out (°C) | Hot Outlet Th,out (°C) | Flow Rate (gal/hr) |
 |---:|---|---:|---:|---:|---:|---:|
 | 1 | Parallel flow | 6.8 | 40.0 | 15.9 | 24.6 | 210 |
 | 2 | Parallel flow | 8.7 | 35.0 | 21.1 | 23.7 | 210 |
 | 3 | Counterflow | 9.2 | 35.0 | 22.1 | 18.0 | 210 |
 | 4 | Counterflow (hotter start) | 10.0 | 40.0 | 23.9 | 19.6 | 210 |
+
+
+<img src="/assets/images/IMG_0879.jpeg" alt="Heat exchanger setup" width="350">
+<img src="/assets/images/IMG_0883.jpeg" alt="Heat exchanger setup" width="350">
+<img src="/assets/images/IMG_0880.jpeg" alt="Heat exchanger setup" width="350">
 
 ### Table 2. Heat transfer results (as reported)
 
@@ -75,7 +79,10 @@ We expect some mismatch between **Qc** and **Qh** because of real-system effects
 | 1 | Parallel | 0.27 |
 | 2 | Parallel | 0.47 |
 | 3 | Counterflow | 0.50 |
-| 4 | Counterflow (hotter start) | 0.46 |
+| 4 | Counterflow (hotter start) | 0.46 |4
+
+
+<img src="/assets/images/IMG_0881.jpeg" alt="Heat exchanger setup" width="350">
 
 ---
 
