@@ -47,6 +47,7 @@ Starting the hot fluid at a higher temperature increases the temperature differe
 ## Measurements
 
 ### Table 1. Temperature and flow measurements
+
 | Run | Configuration | Cold Inlet Tc,in (°C) | Hot Inlet Th,in (°C) | Cold Outlet Tc,out (°C) | Hot Outlet Th,out (°C) | Flow Rate (gal/hr) |
 |---:|---|---:|---:|---:|---:|---:|
 | 1 | Parallel flow | 6.8 | 40.0 | 15.9 | 24.6 | 210 |
