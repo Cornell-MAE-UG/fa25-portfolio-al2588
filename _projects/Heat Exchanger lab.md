@@ -34,8 +34,6 @@ Starting the hot fluid at a higher temperature increases the temperature differe
 
 ## Photos and schematics
 
-## Photos and schematics
-
 **Figure 1. Initial setup for parallel flow**
 <p align="center">
   <img src="/assets/images/IMG_4411.jpeg" style="max-width:320px; width:100%; height:auto;" alt="Figure 1">
