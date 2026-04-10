@@ -39,7 +39,7 @@ Our long-term goal is a standalone station integrated into winery receiving work
 1. What are the main workflow constraints in post-harvest processing? This helps determine where our system could fit into existing operations.
 2. What percentage of harvested material is non-grape debris such as stems and leaves? This helps us design around real contamination conditions.
 
-[View Client Pitch PDF](/assets/pdf/O3_GrapeSoup (1).pdf)
+[View Client Pitch PDF](/assets/pdf/O3_GrapeSoup.pdf)
 
 ---
 
@@ -132,6 +132,6 @@ Our project aims to separate SLFs from harvested grape mixtures by using density
 ### Outcome
 The prototype successfully demonstrated the core skimming motion and confirmed that the paddle mechanism can rotate consistently without interference. The biggest issue found was fastening and bracket stability, which will be improved in the next iteration using more rigid parts and better mounting hardware.
 
-[View Functional Prototype PDF](/assets/pdf/O5_FunctionalPrototype (1).pdf)
+[View Functional Prototype PDF](/assets/pdf/O5_Functional_Prototype.pdf)
 
 [Back to top](#top)
