@@ -132,6 +132,6 @@ Our project aims to separate SLFs from harvested grape mixtures by using density
 ### Outcome
 The prototype successfully demonstrated the core skimming motion and confirmed that the paddle mechanism can rotate consistently without interference. The biggest issue found was fastening and bracket stability, which will be improved in the next iteration using more rigid parts and better mounting hardware.
 
-[View Functional Prototype PDF](/assets/pdf/O5_Functional_Prototype.pdf)
+[View Functional Prototype PDF](/assets/pdf/Functional_Prototype.pdf)
 
 [Back to top](#top)
