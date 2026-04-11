@@ -2,6 +2,7 @@
 layout: project
 title: MAE 2250 – Grape Soup
 description: Client Pitch and Functional Prototype
+image: /assets/images/winerystock.jpeg
 ---
 
 <div id="top"></div>
