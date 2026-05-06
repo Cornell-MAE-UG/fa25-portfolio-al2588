@@ -1,7 +1,7 @@
 ---
 layout: project
 title: MAE 2250 – Grape Soup
-description: Client Pitch and Functional Prototype
+description: Client Pitch, Functional Prototype, and Client Report
 image: /assets/images/winerystock.jpeg
 ---
 
@@ -10,6 +10,7 @@ image: /assets/images/winerystock.jpeg
 ## Table of Contents
 - [Client Pitch](#client-pitch)
 - [Functional Prototype](#functional-prototype)
+- [Client Report](#client-report)
 
 ---
 
@@ -134,5 +135,28 @@ Our project aims to separate SLFs from harvested grape mixtures by using density
 The prototype successfully demonstrated the core skimming motion and confirmed that the paddle mechanism can rotate consistently without interference. The biggest issue found was fastening and bracket stability, which will be improved in the next iteration using more rigid parts and better mounting hardware.
 
 [View Functional Prototype PDF]({{ '/assets/pdf/Functional_Prototype.pdf' | relative_url }})
+
+---
+
+<h2 id="client-report">Client Report</h2>
+
+### Proposed solution and prototype
+We developed a density-based separation system for the receiving area: after initial liquid/solid separation, solids enter a water-filled flotation tank where grapes sink and SLFs float. A rotary paddle mechanism skims floaters from the surface into a discard stream while clean grapes remain below and continue to processing.
+
+### How it works / how it is used
+1. Add harvested material to the flotation tank.
+2. Allow grapes to settle while SLF material remains buoyant at the surface.
+3. Operate the paddlewheel to skim surface material toward the discard outlet.
+4. Remove/dispose the collected floaters; retain grapes for downstream processing.
+
+### Key testing results
+- **Low speed (~8.3 rpm):** 4–6 out of 6 removals in 40–60 s (~83% avg).
+- **High speed (~16.5 rpm):** 5 out of 6 removals in ~20 s (~83%).
+- **Observed grape loss:** 0%; grapes-only controls transferred 0 grapes to discard.
+
+### Conclusion and recommended next steps
+Plain water was sufficient for separation (no sugar/density modifiers needed), which helps keep the process stream clean and reduces added residue/cleanup burden. Next steps include integrating a dedicated disposal/drain valve for controlled disposal and easier water-level maintenance during longer runs, especially at higher speeds where displacement and spillage increase.
+
+[View Client Report PDF]({{ '/assets/pdf/O6_ClientReport.pdf' | relative_url }})
 
 [Back to top](#top)
