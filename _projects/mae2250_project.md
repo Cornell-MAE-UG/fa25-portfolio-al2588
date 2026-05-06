@@ -157,6 +157,6 @@ We developed a density-based separation system for the receiving area: after ini
 ### Conclusion and recommended next steps
 Plain water was sufficient for separation (no sugar/density modifiers needed), which helps keep the process stream clean and reduces added residue/cleanup burden. Next steps include integrating a dedicated disposal/drain valve for controlled disposal and easier water-level maintenance during longer runs, especially at higher speeds where displacement and spillage increase.
 
-[View Client Report PDF]({{ '/assets/pdf/O6_ClientReport.pdf' | relative_url }})
+[View Client Report PDF]({{ '/assets/pdf/O6_Client_Report.pdf' | relative_url }})
 
 [Back to top](#top)
