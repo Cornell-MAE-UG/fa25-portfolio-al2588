@@ -1,7 +1,8 @@
 
 ---
-layout: page
+layout: project
 title: "Fluid Mechanical Dissection: Blower"
+description: "MAE 3230 – Fluid Mechanical Dissection"
 permalink: /projects/fluid-mechanical-dissection/
 ---
 
